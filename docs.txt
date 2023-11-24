@@ -1,0 +1,65 @@
+during development of linux operating system, git was developed to manage the code base.
+
+git install=>
+1.git version control system
+2.git bash
+
+bash -> to open git bash
+
+git config --global user.name "bidyant"
+
+git config user.email "bidyabedantjoshi@gmail.com"
+
+git config --list
+
+git config user.name -> name
+
+git config --global core.editor vim
+
+===================================================================================
+git init               => starting a new project
+git clone Url ownName  => if clone a project
+
+git add --a            => all files included (git add .)
+git add fileName       => single file
+
+git status             => to check anything to commit
+
+git restore --staged <file> => unstage file
+
+git commit -m "cmt"    => to commit in master branch 
+git commit -a -m "cmt" => only tagged file, newly untracked file will not be comitted.
+
+git commit --amend     => to change comment of commit
+
+git log                => to check status of commit
+git log -p             => to check added removed in commit
+git log --stat         => summery on different git commit
+//we can also get commit according to date and time using different command.
+
+git checkout --fileName => to recover mistake & got to prev. version
+git checkout -f         => to recover all files of previous commit
+//if you want that some file will not go to prev commit, then add them in .gitignore and do above
+git checkout <commit-hash> => to go to next commit 
+
+git diff               => to diff between staged and newly edited version
+git diff --staged      => comparision between prev version and staged version
+
+git mv "1.js" "2.js"   =>rename file
+
+git rm --cached       => do not track this file
+rm 'exp.txt'          => to delete a file ->then do commit
+rm -rf .git    => to remove folder as git repo.
+=============================================================
+Life cycle in git
+
+git init, git status => UN-Tracked
+
+git add --a          => UN-MODIFIED
+
+now edit files       => MODIFIED
+
+git commmit          => commited
+
+==============================================================
+=> If any file is not tracked, then it will not be commited.
