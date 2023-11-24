@@ -18,7 +18,6 @@ git config --global core.editor vim
 
 ===================================================================================
 git init               => starting a new project
-git clone Url ownName  => if clone a project
 
 git add --a            => all files included (git add .)
 git add fileName       => single file
@@ -67,3 +66,9 @@ git commmit          => commited
 => If any file is not tracked, then it will not be commited.
 
 or not to commit a file you can use .gitignore
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Git in remote directory
+
+git clone Url ownName  => if clone a project
