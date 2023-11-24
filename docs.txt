@@ -59,7 +59,11 @@ git add --a          => UN-MODIFIED
 
 now edit files       => MODIFIED
 
+//after modification again give git add then commit...
+
 git commmit          => commited
 
 ==============================================================
 => If any file is not tracked, then it will not be commited.
+
+or not to commit a file you can use .gitignore
