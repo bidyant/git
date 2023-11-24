@@ -24,7 +24,7 @@ code editor
 edit => i
 quit => esc->: -> w ->q -> enter
 
-==================================================
+==================================================++
 User in Linux
 1.Regular user -> home dir
 2.Root User    -> full access
