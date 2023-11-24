@@ -78,3 +78,6 @@ git remote add origin https://github.com/bidyant/git.git
 git remote =>git status type
 
 git remote -v
+
+git diff branchName  => to check the diff beetween two branch
+
