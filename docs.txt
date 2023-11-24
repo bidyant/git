@@ -98,3 +98,12 @@ git branch  => to check all branch
 git merge branchName => go to master branch and merge any branch into it.
 git diff branchName  => to check the diff beetween two branch
 
+git branch -v => chek previous commit of each branch
+
+git branch --merged  => to check previously merged branch
+
+git branch --no-merged  => to check unmurged branch
+
+git branch -d branchName => delete a branch 
+//if not merged and want to delete use -D in place of -d 
+
