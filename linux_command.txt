@@ -1,0 +1,36 @@
+cd            => change directory
+
+cd ../        => go to prev folder
+cd folder     => go to foldr
+
+ls            => list content
+
+mkdir foldrName => create new folder
+
+pwd            => present working directory
+
+cat fileName.format => open a file
+
+q              =>to quit from editor vim
+
+touch fileName => to create new blanck file
+
+mv fileName dir/ => move file to directory
+cp fileName dir/ => copy file to dir
+
+
+====================================================
+code editor
+edit => i
+quit => esc->: -> w ->q -> enter
+
+==================================================
+User in Linux
+1.Regular user -> home dir
+2.Root User    -> full access
+3.Service User -> for particular cervice
+
+Absolute path:  cd E:/SFML/bin/dir
+Relative path:  cd /bin/dir
+
+
