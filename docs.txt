@@ -42,7 +42,7 @@ git checkout -f         => to recover all files of previous commit
 git checkout <commit-hash> => to go to next commit 
 
 git diff               => to diff between staged and newly edited version
-git diff --staged      => comparision between prev version and staged version
+git diff --staged      => comparision between prev commited version and staged version
 
 git mv "1.js" "2.js"   =>rename file
 
@@ -72,3 +72,9 @@ or not to commit a file you can use .gitignore
 Git in remote directory
 
 git clone Url ownName  => if clone a project
+
+git remote add origin https://github.com/bidyant/git.git
+
+git remote =>git status type
+
+git remote -v
