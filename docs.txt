@@ -92,3 +92,6 @@ git checkout -b branchName
 to change branch
 git checkout master
 git checkout branchName
+
+git branch  => to check all branch
+
