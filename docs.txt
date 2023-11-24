@@ -24,6 +24,7 @@ git add fileName       => single file
 
 git status             => to check anything to commit
 
+git restore fileName       => to restore change from file to prev. commit //use carefully
 git restore --staged <file> => unstage file
 
 git commit -m "cmt"    => to commit in master branch 
@@ -68,6 +69,9 @@ git commmit          => commited
 or not to commit a file you can use .gitignore
 
 
+git config --global alias.st status => use now "git st"
+
+
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Git in remote directory
 
@@ -78,3 +82,13 @@ git remote add origin https://github.com/bidyant/git.git
 git remote =>git status type
 
 git remote -v
+
+git push -u origin master
+
+=====================================================================================
+create new branch
+git checkout -b branchName
+
+to change branch
+git checkout master
+git checkout branchName
